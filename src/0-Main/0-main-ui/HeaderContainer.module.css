@@ -1,4 +1,6 @@
 .header {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     background-color: gainsboro;
 }
@@ -6,4 +8,9 @@
 .navBar {
     display: flex;
     justify-content: flex-start;
+}
+
+.addForm {
+    padding-right: 10px;
+
 }
