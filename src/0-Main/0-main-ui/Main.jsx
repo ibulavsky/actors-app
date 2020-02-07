@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from "./0-header/Header"
+import HeaderContainer from "./HeaderContainer"
 import Routes from "./1-routes/Routes"
 
 const Main = () => {
     return (
-        <div>
-            <Header/>
+        <>
+            <HeaderContainer/>
             <Routes/>
-        </div>
+        </>
     );
 };
 

@@ -8,7 +8,7 @@ const Routes = () => {
     return (
         <div>
             <Switch>
-                <Route exact path={MAIN_PATH} render={() => <div>Main</div>}/>
+                <Route exact path={MAIN_PATH} render={() => <div>Main Page</div>}/>
                 <Route path={ACTORS_PATH} render={() => <div>Actors</div>}/>
                 <Route path='*'
                        render={() => <div>ERROR 404. Page Not Found</div>}/>
