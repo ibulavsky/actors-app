@@ -1,5 +1,5 @@
 import React from "react";
-import {ACTORS_PATH, MAIN_PATH} from "./1-routes/Routes"
+import {ACTORS_PATH, MAIN_PATH} from "../1-main-routes/Routes"
 import {Breadcrumb} from "antd"
 import {Link} from "react-router-dom"
 import styles from './HeaderContainer.module.css'
@@ -11,10 +11,10 @@ const HeaderContainer = () => {
             <div>
                 <Breadcrumb className={styles.navBar}>
                     <Breadcrumb.Item>
-                        <Link to={MAIN_PATH}>Main</Link>
+                        <Link to={MAIN_PATH}>Главная</Link>
                     </Breadcrumb.Item>
                     <Breadcrumb.Item>
-                        <Link to={ACTORS_PATH}>actors</Link>
+                        <Link to={ACTORS_PATH}>актёры</Link>
                     </Breadcrumb.Item>
                 </Breadcrumb>
             </div>
