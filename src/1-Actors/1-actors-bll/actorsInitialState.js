@@ -4,7 +4,6 @@ export const actorsInitialState = {
     actors: [
         // {"name": "Anakin Skywalker"},
         // {"name": "Wilhuff Tarkin"},
-
     ],
     isLoading: false
 };

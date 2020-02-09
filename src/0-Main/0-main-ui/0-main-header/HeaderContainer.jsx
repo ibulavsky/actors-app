@@ -1,8 +1,9 @@
 import React from "react";
-import {ACTORS_PATH, MAIN_PATH} from "../1-main-routes/Routes"
-import {Breadcrumb} from "antd"
-import {Link} from "react-router-dom"
-import styles from './HeaderContainer.module.css'
+import {ACTORS_PATH, MAIN_PATH} from "../1-main-routes/Routes";
+import {Breadcrumb} from "antd";
+import {Link} from "react-router-dom";
+import AddForm from "./AddForm";
+import styles from './HeaderContainer.module.css';
 
 
 const HeaderContainer = () => {
@@ -19,11 +20,11 @@ const HeaderContainer = () => {
                 </Breadcrumb>
             </div>
             <div className={styles.addForm}>
-                add form
+                <AddForm/>
             </div>
         </header>
     );
-}
+};
 
 
 export default HeaderContainer;
