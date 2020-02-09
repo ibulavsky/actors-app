@@ -3,6 +3,7 @@ export const ADD_ACTOR = 'ACTORS-APP/ACTORS/ADD_ACTOR';
 export const DELETE_ACTOR = 'ACTORS-APP/ACTORS/DELETE_ACTOR';
 export const SET_LOADING = 'ACTORS-APP/ACTORS/SET_LOADING';
 export const SET_CURRENT_PAGE = 'ACTORS-APP/ACTORS/SET_CURRENT_PAGE';
+export const SET_ACTORS_COUNT = 'ACTORS-APP/ACTORS/SET_ACTORS_COUNT';
 
 
 export const setActors = (payload) => ({
@@ -30,3 +31,7 @@ export const setCurrentPage = (page) => ({
     page,
 });
 
+export const setActorsCount = (count) => ({
+    type: SET_ACTORS_COUNT,
+    count,
+});

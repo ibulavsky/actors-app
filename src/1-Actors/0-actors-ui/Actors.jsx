@@ -4,6 +4,7 @@ import {useDispatch, useSelector} from "react-redux"
 import Actor from "./Actor"
 import {Pagination} from "antd"
 import {setCurrentPage} from "../1-actors-bll/actorsActions"
+import {getActors} from "../1-actors-bll/actorsThunks"
 
 const Actors = () => {
 
@@ -12,7 +13,7 @@ const Actors = () => {
     const dispatch = useDispatch()
 
     useEffect(() => {
-//dispatch(getAutors(currentPage))
+        dispatch(getActors(currentPage))
     }, [dispatch, currentPage])
 
     const changePage = (page, pageSize) => {
@@ -25,7 +26,8 @@ const Actors = () => {
                 {isLoading ? <div> Loading... </div> : actors}
             </div>
             <div>
-                <Pagination defaultCurrent={1} total={totalActors} current={currentPage} onChange={changePage}/>
+                <Pagination defaultCurrent={1} total={totalActors} current={currentPage} onChange={changePage}
+                            disabled={isLoading}/>
             </div>
         </div>
     );
