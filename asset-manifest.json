@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/actors-app/static/css/main.894b211a.chunk.css",
+    "main.js": "/actors-app/static/js/main.edef7a61.chunk.js",
+    "main.js.map": "/actors-app/static/js/main.edef7a61.chunk.js.map",
+    "runtime-main.js": "/actors-app/static/js/runtime-main.0c42489f.js",
+    "runtime-main.js.map": "/actors-app/static/js/runtime-main.0c42489f.js.map",
+    "static/css/2.1e105a3b.chunk.css": "/actors-app/static/css/2.1e105a3b.chunk.css",
+    "static/js/2.1b59965c.chunk.js": "/actors-app/static/js/2.1b59965c.chunk.js",
+    "static/js/2.1b59965c.chunk.js.map": "/actors-app/static/js/2.1b59965c.chunk.js.map",
+    "index.html": "/actors-app/index.html",
+    "precache-manifest.93b2318c5751525430298a35edacc9dc.js": "/actors-app/precache-manifest.93b2318c5751525430298a35edacc9dc.js",
+    "service-worker.js": "/actors-app/service-worker.js",
+    "static/css/2.1e105a3b.chunk.css.map": "/actors-app/static/css/2.1e105a3b.chunk.css.map",
+    "static/css/main.894b211a.chunk.css.map": "/actors-app/static/css/main.894b211a.chunk.css.map",
+    "static/js/2.1b59965c.chunk.js.LICENSE.txt": "/actors-app/static/js/2.1b59965c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c42489f.js",
+    "static/css/2.1e105a3b.chunk.css",
+    "static/js/2.1b59965c.chunk.js",
+    "static/css/main.894b211a.chunk.css",
+    "static/js/main.edef7a61.chunk.js"
+  ]
+}
